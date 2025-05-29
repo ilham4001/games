@@ -2,6 +2,42 @@ import { Game } from '../types';
 
 export const gameData: Game[] = [
   {
+    id: 11,
+    name: "Madden NFL 24 MOD",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4f/36/b3/4f36b388-286b-ac59-02a4-1666a9ca94cf/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/434x0w.webp",
+    rating: 4.7,
+    size: "2.8GB",
+    downloads: "15.2M+",
+    platforms: ["ios", "android"]
+  },
+  {
+    id: 12,
+    name: "MLB 9 Innings 24 MOD",
+    image: "https://play-lh.googleusercontent.com/CqenlM6AKziITAbeJyj3veuTfZopCUug--hnzgh7Vhq4SveOjLf-Hi7z1owjWGbYAsQ=w480-h960-rw",
+    rating: 4.5,
+    size: "1.2GB",
+    downloads: "10.8M+",
+    platforms: ["android", "ios"]
+  },
+  {
+    id: 13,
+    name: "NBA 2K24 MOD",
+    image: "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b6/70/b9/b670b964-c546-084e-0384-f0cdf602da44/AppIcon-0-0-1x_U007epad-0-1-0-512MB-85-220.png/434x0w.webp",
+    rating: 4.8,
+    size: "3.5GB",
+    downloads: "20.1M+",
+    platforms: ["ios", "android"]
+  },
+  {
+    id: 14,
+    name: "Hockey All Stars MOD",
+    image: "https://play-lh.googleusercontent.com/u8XlUMG0X7eqw6i7sgPWo6SlmU8Z_eac6osTfkgU-xbJ13alnCHzuhxhBvlxvRTWS_Vl=w480-h960-rw",
+    rating: 4.4,
+    size: "850MB",
+    downloads: "5.5M+",
+    platforms: ["android", "ios"]
+  },
+  {
     id: 1,
     name: "BitLife MOD",
     image: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-wixmp-ed30a86b8c4ca887773594c2.wixmp.com%2Ff%2Fd49ba913-dbd1-4505-99cc-9bd433c6e42d%2Fdfq8dh4-98910467-ecbd-48b7-b0b5-bb18781bbed7.png%2Fv1%2Ffill%2Fw_608%2Ch_608%2Fbitlife_icon_by_abbysek_dfq8dh4-fullview.png%3Ftoken%3DeyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjA4IiwicGF0aCI6IlwvZlwvZDQ5YmE5MTMtZGJkMS00NTA1LTk5Y2MtOWJkNDMzYzZlNDJkXC9kZnE4ZGg0LTk4OTEwNDY3LWVjYmQtNDhiNy1iMGI1LWJiMTg3ODFiYmVkNy5wbmciLCJ3aWR0aCI6Ijw9NjA4In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.dkReuZwLhahyCesbUvgL-4YsYmtWfSfeQ57RBmy3UaY&f=1&nofb=1&ipt=a73a8ecf7ee19051c66688969cd52d233bcff4b036636e221e99d7726dd60b38",
