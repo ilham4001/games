@@ -60,3 +60,5 @@ const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
     </div>
   );
 }
+
+export default GameCard
