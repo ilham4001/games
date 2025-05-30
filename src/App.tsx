@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, Suspense } from 'react';
 import { TowerControl as GameController } from 'lucide-react';
 import Header from './components/Header';
 import SearchBar from './components/SearchBar';
 import GameGrid from './components/GameGrid';
-import GameModal from './components/GameModal';
-import ContentLocker from './components/ContentLocker';
 import SectionTitle from './components/SectionTitle';
 import { Game } from './types';
 import { gameData } from './data/gameData';
+
+// Lazy load modal components
+const GameModal = React.lazy(() => import('./components/GameModal'));
+const ContentLocker = React.lazy(() => import('./components/ContentLocker'));
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -63,20 +65,22 @@ function App() {
         )}
       </main>
 
-      {selectedGame && (
-        <GameModal 
-          game={selectedGame}
-          onClose={handleCloseModal}
-          onDownload={handleDownload}
-        />
-      )}
+      <Suspense fallback={null}>
+        {selectedGame && (
+          <GameModal 
+            game={selectedGame}
+            onClose={handleCloseModal}
+            onDownload={handleDownload}
+          />
+        )}
 
-      {showContentLocker && selectedGame && (
-        <ContentLocker 
-          game={selectedGame}
-          onClose={handleCloseLocker}
-        />
-      )}
+        {showContentLocker && selectedGame && (
+          <ContentLocker 
+            game={selectedGame}
+            onClose={handleCloseLocker}
+          />
+        )}
+      </Suspense>
     </div>
   );
 }

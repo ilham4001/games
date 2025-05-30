@@ -29,7 +29,8 @@ const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
           <img 
             src={game.image} 
             alt={`${game.name} icon`} 
-            className="w-28 h-28 object-cover rounded-lg border-2 border-gray-700"
+            className="w-32 h-32 object-cover rounded-lg border-2 border-gray-700"
+            loading="lazy"
           />
           <div className="absolute -bottom-2 bg-gradient-to-r from-amber-500 to-amber-600 text-gray-900 text-xs font-bold px-3 py-1 rounded-md">
             MOD
@@ -38,11 +39,11 @@ const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
       </div>
 
       <div className="px-4 pb-4">
-        <h3 className="text-sm font-medium text-gray-100 text-center line-clamp-2 min-h-[2.5rem]">
+        <h3 className="text-sm font-medium text-gray-100 text-center line-clamp-2 min-h-[2.5rem] mb-2">
           {game.name}
         </h3>
         
-        <div className="flex justify-center items-center mt-2 text-xs text-gray-400">
+        <div className="flex justify-center items-center text-xs text-gray-400">
           <div className="flex space-x-1">
             {game.platforms.includes('android') && <Android className="w-3.5 h-3.5" />}
             {game.platforms.includes('ios') && <Apple className="w-3.5 h-3.5" />}
@@ -58,6 +59,4 @@ const GameCard: React.FC<GameCardProps> = ({ game, onClick }) => {
       </div>
     </div>
   );
-};
-
-export default GameCard;
+}
