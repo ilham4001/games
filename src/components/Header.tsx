@@ -12,11 +12,12 @@ const Header: React.FC = () => {
         <div className="flex items-center">
           <img 
             src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.creativefabrica.com%2Fwp-content%2Fuploads%2F2023%2F05%2F08%2FVideo-Game-Controller-Logo-Graphics-69127373-1.png&f=1&nofb=1&ipt=6e6249efa9d905ce20b170e7f5aea4b1f2605962ec190012dccb03b3496e88dd" 
-            alt="GameMod Zone Logo" 
+            alt="Premium Mobile Games Logo" 
             className="h-10 w-auto mr-3"
+            loading="lazy"
           />
-          <h1 className="text-2xl font-bold bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-transparent">
-            GameMod Zone
+          <h1 className="text-2xl font-bold text-white">
+            Premium Games
           </h1>
         </div>
         

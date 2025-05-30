@@ -11,10 +11,7 @@ interface GameModalProps {
 const GameModal: React.FC<GameModalProps> = ({ game, onClose, onDownload }) => {
   return (
     <div className="fixed inset-0 bg-black/85 backdrop-blur-sm flex items-center justify-center z-50 p-4 overflow-y-auto">
-      <div 
-        className="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl max-w-md w-full mx-auto 
-          shadow-2xl shadow-purple-900/20 border border-gray-700 relative animate-fadeIn"
-      >
+      <div className="bg-gradient-to-b from-gray-800 to-gray-900 rounded-xl max-w-md w-full mx-auto shadow-2xl shadow-purple-900/20 border border-gray-700 relative animate-fadeIn">
         <button 
           onClick={onClose}
           className="absolute right-4 top-4 text-gray-400 hover:text-white transition-colors"
@@ -23,15 +20,16 @@ const GameModal: React.FC<GameModalProps> = ({ game, onClose, onDownload }) => {
         </button>
 
         <div className="p-6 text-center">
-          <div className="relative mx-auto w-32 h-32 -mt-20 mb-4">
+          <div className="relative mx-auto w-48 h-48 -mt-20 mb-4">
             <img 
               src={game.image}
               alt={`${game.name} preview`}
-              className="w-32 h-32 object-cover rounded-xl border-4 border-gray-800 shadow-lg"
+              className="w-full h-full object-contain rounded-xl border-4 border-gray-800 shadow-lg"
+              loading="lazy"
             />
           </div>
 
-          <h2 className="text-2xl font-bold bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-transparent mb-2">
+          <h2 className="text-2xl font-bold text-white mb-4">
             {game.name}
           </h2>
 
@@ -58,15 +56,6 @@ const GameModal: React.FC<GameModalProps> = ({ game, onClose, onDownload }) => {
               </div>
               <div className="text-xs text-gray-500 mt-1">Downloads</div>
             </div>
-          </div>
-
-          <div className="bg-gray-800/70 rounded-lg p-4 mb-6">
-            <h3 className="text-amber-400 font-semibold mb-2">MOD Features:</h3>
-            <ul className="text-sm text-gray-300">
-              {game.features?.map((feature, index) => (
-                <li key={index} className="mb-1">• {feature}</li>
-              ))}
-            </ul>
           </div>
 
           <button 
