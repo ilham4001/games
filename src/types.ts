@@ -7,11 +7,6 @@ export interface Game {
   downloads: string;
   platforms: ('android' | 'ios')[];
   isAdult?: boolean;
-}
-
-export interface Offer {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
+  description?: string;
+  features?: string[];
 }

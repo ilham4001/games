@@ -8,7 +8,15 @@ export const gameData: Game[] = [
     rating: 4.7,
     size: "2.8GB",
     downloads: "15.2M+",
-    platforms: ["ios", "android"]
+    platforms: ["ios", "android"],
+    description: "Experience the ultimate NFL gaming with unlimited coins, unlocked players, and premium features. Build your dream team with legendary players and dominate the field.",
+    features: [
+      "Unlimited Coins & Cash",
+      "All Players Unlocked",
+      "No Stamina Limits",
+      "Premium Features Enabled",
+      "Ad-Free Experience"
+    ]
   },
   {
     id: 12,
@@ -17,7 +25,15 @@ export const gameData: Game[] = [
     rating: 4.5,
     size: "1.2GB",
     downloads: "10.8M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Step up to the plate with unlimited resources, all players unlocked, and enhanced gameplay features. Build the ultimate baseball team and compete at the highest level.",
+    features: [
+      "Unlimited Stars & Points",
+      "All Players Available",
+      "Max Skills Enabled",
+      "Premium Items Unlocked",
+      "No Energy Restrictions"
+    ]
   },
   {
     id: 13,
@@ -26,7 +42,15 @@ export const gameData: Game[] = [
     rating: 4.8,
     size: "3.5GB",
     downloads: "20.1M+",
-    platforms: ["ios", "android"]
+    platforms: ["ios", "android"],
+    description: "Take your basketball game to the next level with unlimited VC, all players unlocked, and premium features. Create the ultimate NBA dynasty with legendary players.",
+    features: [
+      "Unlimited VC (Virtual Currency)",
+      "All NBA Stars Unlocked",
+      "Max Attributes Available",
+      "Premium Content Included",
+      "Enhanced Graphics Settings"
+    ]
   },
   {
     id: 14,
@@ -35,7 +59,15 @@ export const gameData: Game[] = [
     rating: 4.4,
     size: "850MB",
     downloads: "5.5M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Hit the ice with unlimited resources, unlocked players, and premium features. Build your dream hockey team and dominate the league with enhanced gameplay.",
+    features: [
+      "Unlimited Coins & Gems",
+      "All Players Available",
+      "Premium Features Unlocked",
+      "No Energy Limits",
+      "Enhanced Game Modes"
+    ]
   },
   {
     id: 1,
@@ -44,7 +76,15 @@ export const gameData: Game[] = [
     rating: 4.6,
     size: "105MB",
     downloads: "50.5M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Live your virtual life to the fullest with unlimited access to all premium features, careers, and scenarios. Make choices without restrictions and experience every possibility.",
+    features: [
+      "God Mode Enabled",
+      "All Scenarios Unlocked",
+      "Premium Content Access",
+      "No Ads",
+      "Unlimited Choices"
+    ]
   },
   {
     id: 2,
@@ -53,7 +93,15 @@ export const gameData: Game[] = [
     rating: 4.8,
     size: "48MB",
     downloads: "25.2M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Experience classic American football with modern twists. Unlimited coaching credits, all teams unlocked, and enhanced gameplay features for the ultimate retro football experience.",
+    features: [
+      "Unlimited Coaching Credits",
+      "All Teams Available",
+      "Premium Features Unlocked",
+      "Enhanced Game Modes",
+      "No Restrictions"
+    ]
   },
   {
     id: 3,
@@ -62,7 +110,15 @@ export const gameData: Game[] = [
     rating: 4.5,
     size: "85MB",
     downloads: "100.1M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Jump and fly your way through danger in this rhythm-based action platformer. All levels unlocked, unlimited attempts, and premium features enabled for the ultimate gaming experience.",
+    features: [
+      "All Levels Unlocked",
+      "Unlimited Attempts",
+      "All Icons Available",
+      "Premium Features",
+      "No Ads"
+    ]
   },
   {
     id: 4,
@@ -71,7 +127,15 @@ export const gameData: Game[] = [
     rating: 4.7,
     size: "155MB",
     downloads: "60.8M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Create your monster paradise with unlimited diamonds, all monsters unlocked, and enhanced breeding features. Build the ultimate musical island with premium content.",
+    features: [
+      "Unlimited Diamonds",
+      "All Monsters Available",
+      "Enhanced Breeding",
+      "Premium Islands Unlocked",
+      "No Wait Times"
+    ]
   },
   {
     id: 5,
@@ -80,7 +144,15 @@ export const gameData: Game[] = [
     rating: 4.3,
     size: "120MB",
     downloads: "10.3M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Experience spine-chilling horror with all chapters unlocked and enhanced graphics. Explore every dark corner with unlimited resources and premium features.",
+    features: [
+      "All Chapters Unlocked",
+      "Enhanced Graphics",
+      "Premium Items Available",
+      "No Energy Limits",
+      "Ad-Free Experience"
+    ]
   },
   {
     id: 6,
@@ -89,7 +161,15 @@ export const gameData: Game[] = [
     rating: 4.1,
     size: "210MB",
     downloads: "5.7M+",
-    platforms: ["android"]
+    platforms: ["android"],
+    description: "Join the ultimate multiplayer horror experience with all characters unlocked and enhanced abilities. Survive or hunt with premium features enabled.",
+    features: [
+      "All Characters Unlocked",
+      "Enhanced Abilities",
+      "Premium Skins",
+      "Unlimited Resources",
+      "No Waiting Time"
+    ]
   },
   {
     id: 7,
@@ -98,7 +178,15 @@ export const gameData: Game[] = [
     rating: 4.9,
     size: "75MB",
     downloads: "75.4M+",
-    platforms: ["android"]
+    platforms: ["android"],
+    description: "Create and destroy in this physics-based sandbox with all items unlocked. Enjoy unlimited creativity with premium features and enhanced graphics.",
+    features: [
+      "All Items Unlocked",
+      "Premium Tools Available",
+      "Enhanced Physics",
+      "No Restrictions",
+      "Ad-Free Experience"
+    ]
   },
   {
     id: 8,
@@ -107,7 +195,15 @@ export const gameData: Game[] = [
     rating: 4.6,
     size: "450MB",
     downloads: "90.6M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Explore an endless world of creativity with all locations and items unlocked. Create your stories with premium content and unlimited possibilities.",
+    features: [
+      "All Locations Unlocked",
+      "Unlimited Items",
+      "Premium Content Access",
+      "No Restrictions",
+      "Enhanced Features"
+    ]
   },
   {
     id: 9,
@@ -116,7 +212,15 @@ export const gameData: Game[] = [
     rating: 4.4,
     size: "320MB",
     downloads: "30.9M+",
-    platforms: ["android", "ios"]
+    platforms: ["android", "ios"],
+    description: "Conquer any terrain with unlimited money and all vehicles unlocked. Experience the ultimate off-road adventure with premium features enabled.",
+    features: [
+      "Unlimited Money",
+      "All Vehicles Unlocked",
+      "Premium Features",
+      "Enhanced Graphics",
+      "No Fuel Limits"
+    ]
   },
   {
     id: 10,
@@ -125,27 +229,14 @@ export const gameData: Game[] = [
     rating: 4.2,
     size: "185MB",
     downloads: "150.2M+",
-    platforms: ["android", "ios"]
-  }
-];
-
-export const offerData = [
-  {
-    id: 1,
-    title: "Premium Survey",
-    description: "Complete a quick survey to continue",
-    image: "https://images.pexels.com/photos/6289065/pexels-photo-6289065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  },
-  {
-    id: 2,
-    title: "Install App",
-    description: "Try this free app for 30 seconds",
-    image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  },
-  {
-    id: 3,
-    title: "Watch Video",
-    description: "Watch a short video to unlock",
-    image: "https://images.pexels.com/photos/1782146/pexels-photo-1782146.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    platforms: ["android", "ios"],
+    description: "Race and compete with unlimited skins and emotes unlocked. Enjoy the ultimate multiplayer experience with premium features and enhanced gameplay.",
+    features: [
+      "All Skins Unlocked",
+      "Unlimited Gems",
+      "Premium Emotes",
+      "Enhanced Movement",
+      "No Ads"
+    ]
   }
 ];

@@ -31,7 +31,11 @@ const GameModal: React.FC<GameModalProps> = ({ game, onClose, onDownload }) => {
             />
           </div>
 
-          <h2 className="text-2xl font-bold text-amber-400 mb-4">{game.name}</h2>
+          <h2 className="text-2xl font-bold bg-gradient-to-r from-amber-500 to-amber-600 bg-clip-text text-transparent mb-2">
+            {game.name}
+          </h2>
+
+          <p className="text-gray-300 text-sm mb-6">{game.description}</p>
 
           <div className="flex justify-around items-center py-4 border-t border-b border-gray-700 mb-6">
             <div className="flex flex-col items-center">
@@ -54,6 +58,15 @@ const GameModal: React.FC<GameModalProps> = ({ game, onClose, onDownload }) => {
               </div>
               <div className="text-xs text-gray-500 mt-1">Downloads</div>
             </div>
+          </div>
+
+          <div className="bg-gray-800/70 rounded-lg p-4 mb-6">
+            <h3 className="text-amber-400 font-semibold mb-2">MOD Features:</h3>
+            <ul className="text-sm text-gray-300">
+              {game.features?.map((feature, index) => (
+                <li key={index} className="mb-1">• {feature}</li>
+              ))}
+            </ul>
           </div>
 
           <button 
